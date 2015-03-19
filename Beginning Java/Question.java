@@ -2,8 +2,9 @@
 /*
 	Question Class - Related -> Lesson  11
 		Represents a question (and its answer)
-*/
-public class Question implements Complexity
+*/ 
+
+public class Question implements Complexity // This is how you call an interfce.
 	{
 	private String question, answer;
 	private int complexityLevel;
