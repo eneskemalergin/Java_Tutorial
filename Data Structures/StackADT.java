@@ -3,7 +3,7 @@
 	Stack Interface
 */
 package jss2;
-
+import jss2.*;
 public interface StackADT<T>{
 	
 	public void push (T element);
