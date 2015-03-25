@@ -2,8 +2,6 @@
 /*
 	Queue Interface
 */
-package jss2;
-import jss2.*;
 
 public interface QueueADT<T>{
 		

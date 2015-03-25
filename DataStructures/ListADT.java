@@ -2,7 +2,7 @@
 /*
 	List interface
 */
-package jss2;
+
 import java.util.Iterator;
 
 public interface ListADT<T> extends Iterable<T>{

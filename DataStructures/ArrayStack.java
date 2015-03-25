@@ -2,9 +2,8 @@
 /*
 	Array implementation of Stack
 */
-package jss2;
-import jss2.exceptions.*;
 
+// Add Exceptions package
 public class ArrayStack<T> implements StackADT<T>{
 
 	private final int DEFAULT_CAPACITY = 100;

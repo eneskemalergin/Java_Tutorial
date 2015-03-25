@@ -2,9 +2,6 @@
 /*
 	linked Implementation of a queue...	
 */
-package jss2;
-import jss2.*;
-import jss2.exceptions.*;
 
 public class LinkedQueue<T> implements QueueADT<T>{
 	private int count;

@@ -2,8 +2,7 @@
 /*
 	Creates nodes for linked list.
 */
-package jss2;
-import jss2.*;
+	
 public class LinearNode<T>{
 	
 	// Reference to next node in list 

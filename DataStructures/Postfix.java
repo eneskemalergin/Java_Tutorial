@@ -4,7 +4,6 @@
 	Dependencies :
 		- PostfixEvaluator.java
 */
-package jss2;
 import java.util.Scanner;
 
 public class Postfix{

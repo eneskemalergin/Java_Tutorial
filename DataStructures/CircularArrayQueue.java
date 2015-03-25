@@ -2,9 +2,7 @@
 /*
 	Circular Array implementation of Queues
 */
-
-package jss2;
-import jss2.exceptions.*;
+// Add Exceptions Package
 import java.util.Iterator;
 public class CircularArrayQueue<T> implements QueueADT<T>{
 

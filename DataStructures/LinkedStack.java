@@ -3,8 +3,7 @@
 	Linked list implementation of Stacks	
 		-> We will use StackADT<T> interface again here.
 */
-package jss2;
-import jss2.*;
+
 public class LinkedStack<T> implements StackADT<T>{
 	
 	// number of elements storage

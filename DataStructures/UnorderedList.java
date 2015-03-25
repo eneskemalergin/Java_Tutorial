@@ -2,7 +2,6 @@
 /*
 	UnorderedListADT interface which extends ListADT
 */
-package jss2;
 
 public interface UnorderedListADT<T> extends ListADT<T>{
 	public void addToFront(T element);

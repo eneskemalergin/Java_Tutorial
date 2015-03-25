@@ -2,8 +2,7 @@
 /*
 	PostfixEvaluator.java class
 */
-package jss2;	
-import jss2.ArrayStack.*;
+
 import java.util.StringTokenizer;
 
 public class PostfixEvaluator{
