@@ -3,6 +3,8 @@
 	Linked list implementation of Stacks	
 		-> We will use StackADT<T> interface again here.
 */
+package DataStructures;
+import DataStructures.exceptions.*;
 
 public class LinkedStack<T> implements StackADT<T>{
 	

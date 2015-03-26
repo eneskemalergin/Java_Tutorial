@@ -3,7 +3,10 @@
 	Array implementation of Stack
 */
 
-// Add Exceptions package
+package DataStructures;
+import DataStructures.exceptions.*;
+import java.util.Arrays;
+
 public class ArrayStack<T> implements StackADT<T>{
 
 	private final int DEFAULT_CAPACITY = 100;
@@ -46,7 +49,7 @@ public class ArrayStack<T> implements StackADT<T>{
 			throw new EmptyCollectionException("Stack is already empty");
 		top--;
 		T result = stack[top];
-		stackp[top] = null;
+		stack[top] = null;
 
 		return result;
 	}
